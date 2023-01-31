@@ -10,6 +10,7 @@ import { Form, NgForm } from '@angular/forms';
 export class AuthComponent implements OnInit {
   isLoginMode = true;
   // @ViewChild('authForm')
+  //form is controlled by Template driven method
 
   constructor(private authService: AuthService) {}
 
